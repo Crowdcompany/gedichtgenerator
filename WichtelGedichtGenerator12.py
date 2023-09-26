@@ -18,7 +18,7 @@ st.text(" (in authentisch schlechter Qualität)")
 
 # Get user input for the person's information
 user_input = st.text_input("Geben Sie den Namen und die Schlüsselwörter für die Person ein (kommagetrennt):")
-st.text("Beispiel: James Bond, Geheimagent, kein Kassenpatient, elegant, Frauenschwarm")
+st.text("Beispiel: Peter Lustig, macht Kinderprogramm, Sendung mit der Maus,\n erklärt Kindern die Welt, trägt eine Latzhose")
 
 # Use a button to trigger execution
 generate_button = st.button("Losdichten!")
