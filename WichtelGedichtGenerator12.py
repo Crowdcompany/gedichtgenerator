@@ -9,7 +9,7 @@ from langchain.llms import OpenAIChat
 # os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 # Render
-# os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
+OPENAI_API_KEY=os.environ.get('OPENAI_API_KEY')
 
 # Create a Streamlit app
 st.title("Wichtel Gedicht Generator")
